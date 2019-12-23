@@ -1,0 +1,45 @@
+
+body {
+    margin: 0;
+    line-height: 1.8;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+div.tabs {
+    max-width: 500px;
+    margin: 30px auto;
+
+}
+
+.tabs__item--content {
+    padding: 20px;
+}
+ul.tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.tabs-nav__item {
+    background-color: #2dc4a2;
+    display: inline-block;
+    line-height: 3;
+    padding: 0 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+ul.tabs-nav,
+body{
+    background-color: #f4f0f1;
+}
+
+li.tabs-nav_item--active,
+li.tabs-nav__item:hover{
+    background-color: #fafafa;
+}
